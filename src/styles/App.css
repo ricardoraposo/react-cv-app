@@ -1,0 +1,63 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import './helpers.css';
+
+/* styles */
+*,
+*::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: lightblue;
+  padding: 2rem;
+}
+
+form{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+label{
+  font-size: 1.2rem;
+}
+
+input{
+  font-size: 1rem;
+}
+
+.label-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.fs-2{
+  font-size: 2rem;
+}
+
+.curriculum{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: lightgray;
+  margin: 0 3rem;
+}
+
+.name-section{
+  background-color: darkblue;
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+.image{
+  width: 220px;
+}

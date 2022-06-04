@@ -1,0 +1,15 @@
+.df-jcc-aic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 4rem;
+}
+
+.cv-pad{
+  padding: 0.5rem 2rem;
+}
